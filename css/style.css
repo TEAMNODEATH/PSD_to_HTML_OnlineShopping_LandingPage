@@ -259,90 +259,7 @@ body::-webkit-scrollbar-thumb
 	background-color: #1D6A4D;
 	font-family: 'Josefin Sans';
 }
-/* .content h1
-{
-	font-size: 8vw;
-	font-weight: 600;
-	color: #273c75;
-	line-height: 90px;
 
-}
-.content h5
-{
-	color: #22b4ba;
-	font-weight: bold;
-	letter-spacing: 3px;
-}
-.content p
-{
-	color: #22b4ba;
-}
-.my_btn
-{	
-	height: 35px;
-	width: 130px;
-	background-color:  #22b4ba !important;
-	color: white !important;
-	border-radius: 20px !important;
-	border: none;
-	box-shadow: 1px 1px 9px #a7a5a5;
-	cursor: pointer;
-	transition: .5s all;
-}
-.my_btn:hover
-{	
-	
-	background-color: transparent !important;
-	color:  #22b4ba !important;
-	border: 3px solid #22b4ba;
-	font-weight: bold;
- */	/* transition: 0.5s all; 
-	
-}
-.social_media i
-{
-	color: #273c75;
-	padding: 9px;
-	cursor: pointer;
-	transition: 0.8s all;
-}
-.social_media i:hover
-{
-	transform: translateY(-10px);
-	transition: transform 0.8s ease-in;
-	color: grey;
-	border: 1px solid grey;
-	border-radius: 50%;
-}
-
-.my_btn2
-{	
-	height: 35px;
-	width: 130px;
-	background-color:  #22b4ba !important;
-	color: white !important;
-	border-radius: 20px !important;
-	border: none;
-	cursor: pointer;
-	transition: .5s all;
-}
-.my_btn2:hover
-{	
-	
-	background-color: transparent !important;
-	color:  #22b4ba !important;
-	border: 3px solid #22b4ba;
-	font-weight: bold;
-}
-.img_scetion
-{
-	background:  url('../img/side2.svg') no-repeat right;
-	width: 100%;
-	height: 500px;
-	background-size: contain;
-	position: relative;
-	right: -200px;
-}*/
 
 @media screen  and (max-width: 992px)
 {
@@ -357,6 +274,20 @@ body::-webkit-scrollbar-thumb
 @media screen  and (max-width: 768px)
 {
 	
+
+	#dropdown , #dropdown .my_btn
+	{
+		text-align: center !important;
+	}
+}
+
+@media screen  and (max-width: 576px)
+{
+	
+	.content h1
+	{
+		font-size: large;
+	}
 
 	#dropdown , #dropdown .my_btn
 	{
